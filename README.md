@@ -30,5 +30,10 @@
 * [Eslint](https://www.npmjs.com/package/eslint) 
 
 
+### Useful Diagram
+
+![Diagram](flow.png)
+
+
 
 Enjoy it ;)

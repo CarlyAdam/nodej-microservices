@@ -11,7 +11,7 @@ describe('Api Health test', () => {
     chai
       .request(server)
       .post('/api/')
-      .send({email: 'your@email.com', name: 'test'})
+      .send({ email: 'your@email.com', name: 'test' })
       .end((err, res) => {
         res.status.should.equal(200);
         done();
